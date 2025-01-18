@@ -55,13 +55,13 @@ cd Laravel-E-commerce-website-with-stripe-payment-gateway
   ```bash
     npm install
   ```
-  ### 3. Set up the Environment
+### 3. Set up the Environment
   
 - **Copy the example environment file to create your own** `.env` **file:**
   ```bash
     cp .env.example .env
   ```
-  ### 4. Configure Environment Variables
+### 4. Configure Environment Variables
 
 - **Open the** `.env` **file and configure the following          variables:**
   ```bash
@@ -90,37 +90,37 @@ cd Laravel-E-commerce-website-with-stripe-payment-gateway
     MAIL_FROM_ADDRESS=your-email@example.com
     MAIL_FROM_NAME="Your Store Name"
   ```
-- **5. Generate Application Key**
+### 5. Generate Application Key
 - Run the following command to generate your application's encryption key:
  ```bash
     php artisan key:generate
  ```
-- **6. Run Database Migrations**
+### 6. Run Database Migrations
 - Next, run the database migrations to create the necessary tables in your database:
   ```bash
     php artisan migrate
   ```
-- **7. Compile Frontend Assets**
+### 7. Compile Frontend Assets
 - To compile the frontend assets (CSS, JavaScript), run the following command:
   ```bash
     npm run dev
   ```
   
-- **8. Start the Development Server**
+### 8. Start the Development Server
 - Run the Laravel development server:
 
 ```bash
   php artisan serve
 ```
-- **10. Access the Application**
+### 9. Access the Application
 - You can now access the application in your browser by navigating to:
 
   ```bash
     http://127.0.0.1:8000
   ```
-
 This will start the application at http://127.0.0.1:8000.
-### 11. Testing Payment Flow
+
+### 10. Testing Payment Flow
 
 #### Stripe:
 - Use **Stripe's test keys** and test card numbers (e.g., `4242 4242 4242 4242`) for testing payments.
