@@ -39,6 +39,9 @@ To download the project, you need to clone the GitHub repository. Run the follow
 
 ```bash
 git clone https://github.com/your-username/Laravel-E-commerce-website-with-stripe-payment-gateway.git
+```
+
+```bash
 cd Laravel-E-commerce-website-with-stripe-payment-gateway
 ```
 
