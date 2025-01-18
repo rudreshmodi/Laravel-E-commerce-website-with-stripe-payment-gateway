@@ -105,11 +105,7 @@ cd Laravel-E-commerce-website-with-stripe-payment-gateway
   ```bash
     npm run dev
   ```
-- For a build, run:
-  ```bash
-      npm install
-      npm run dev
-  ```
+  
 - **8. Start the Development Server**
 - Run the Laravel development server:
 
